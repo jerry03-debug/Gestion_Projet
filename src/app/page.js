@@ -17,7 +17,7 @@ export default function Auth() {
     return (
         <main className="flex bg-slate-100 min-h-screen flex-col justify-center items-center">
             <div className="bg-white p-6 rounded shadow-md w-full max-w-md">
-                <h2 className="text-2xl font-bold mb-6 text-center">Connexion</h2>
+                <h2 className="text-2xl font-bold mb-6 text-center">Bienvenue !</h2>
                 <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
                     <input
                         type="email"
