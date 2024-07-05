@@ -5,15 +5,15 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className={`flex px-2 w-full items-center bg-white dark:bg-dark`}>
+    <header className={`flex px-2 w-full items-center border-b bg-white dark:bg-dark`}>
       <div className="container">
         <div className="relative  flex items-center justify-between">
-          <div className="w-60 max-w-full px-4">
+          <div className="w-60 max-w-full px-4 py-1">
             <a href="/#" className="block w-full ">
               <img
                 src="/esp.png"
                 alt="logo"
-                className="dark:hidden w-16 h-16"
+                className="dark:hidden w-12 h-12"
               />
             </a>
           </div>
@@ -41,7 +41,6 @@ const Navbar = () => {
                   <ListItem NavLink="/#">Espace de travail</ListItem>
                   <ListItem NavLink="/#">Recents</ListItem>
                   <ListItem NavLink="/#">Favoris</ListItem>
-                  <ListItem NavLink="/#">Plus</ListItem>
                 </ul>
               </nav>
             </div>
